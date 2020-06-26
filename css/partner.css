@@ -1,0 +1,428 @@
+@font-face {
+    font-family: 'Gilroy';
+    /*src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+    /*src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       /*url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       src : url('../fonts/Gilroy/Gilroy_ExtraBold.otf')  format('truetype'); /* Safari, Android, iOS */
+       /*url('fonts/Gotham-Bold.svg#svgFontName') format('svg');  Legacy iOS */
+     font-weight: 700;
+     font-style: normal;
+}
+@font-face{
+  font-family: 'Raleway';
+  src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+     font-style: normal;
+
+}
+@font-face{
+    font-family: 'Raleway_Bold';
+    src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Raleway_Regular';
+    src:url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+/**/
+.partner_main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin-bottom: 20px;
+}
+.taj_div, .yono_div, .lokmath_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo_title_div > h3{
+    color: #091d5a;
+    font-size: 2.5em;
+    font-family: 'Gilroy';
+    padding: 0;
+    margin: 20px 0 0;
+}
+.sponsor_logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.level_2_logos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.heading_class{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.taj_logo{
+    width: 50%;
+}
+.yono_logo{
+    width: 30%;
+}
+.lokmat_logo{
+    width: 60%;
+}
+/**/
+.heading_class > h1,.sponsor_heading_class > h1 {
+    color: #091d5a;
+    font-size: 3em;
+    font-family: 'Gilroy';
+    padding: 0;
+    margin: 20px 0 0;
+}
+
+/**/
+.para_class1 > p {
+    color: #091d5a;
+    font-size: 1.1em;
+    font-family: 'Raleway_Bold',sans-serif;
+    padding: 0;
+    margin: 20px 0;
+    text-align:justify;
+    hyphens: auto;
+}
+.image_class{
+    display: flex;
+    justify-content: center;
+}
+.image_actual{
+    width: 75%;
+}
+/**/
+.para_class2 > p {
+    color: #091d5a;
+    font-size: 1.1em;
+    font-family: 'Raleway_Bold',sans-serif;
+    padding: 0;
+    margin: 20px 0;
+    text-align:justify;
+    hyphens: auto;
+}
+.contacts_partner{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.marketing_contact, .gensec_contact{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+}
+.mail_text_div, .number_text_div{
+    display: flex;
+    flex-direction: column;
+}
+/**/
+.email_img, .phone_img{
+    margin: 0 10px ;
+}
+/**/
+.mail_text_div > h3, .number_text_div > h3 {
+    color: #091d5a;
+    font-size: 1.2em;
+    font-family: 'Gilroy';
+    padding: 0;
+    margin: 5px 0;
+}
+/**/
+.mail_text_div > h4, .number_text_div > h4 {
+    color: #091d5a;
+    font-size: 1em;
+    font-family: 'Raleway';
+    padding: 0;
+    margin: 5px 0;
+}
+
+    @media screen and (min-width: 801px) and (max-width: 1100px){
+        .partner_main{
+            width: 85%;
+        }
+        .heading_class > h1 {            
+            font-size: 2.5em;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .para_class1 > p, .para_class2 > p {
+            font-size: 1em;
+            padding: 0;
+            margin: 10px 0;
+        }   
+        .mail_text_div > h3, .number_text_div > h3 {
+            font-size: 1.1em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .mail_text_div > h4, .number_text_div > h4 {
+            font-size: 0.9em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .taj_logo{
+            width: 40%;
+        }
+        .yono_logo{
+            width: 30%;
+        }
+        .lokmat_logo{
+            width: 60%;
+        }
+        .logo_title_div > h3{
+            font-size: 2em;
+            padding: 0;
+            margin: 10px 0 0;
+        }
+    
+    }  
+    
+    @media screen and (max-width: 800px) {
+        .partner_main{
+            width: 90%;
+        }
+        .heading_class{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .heading_class > h1 {            
+            font-size: 2.25em;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .para_class1 > p, .para_class2 > p {
+            font-size: 1em;
+            padding: 0;
+            margin: 10px 0;
+        }  
+        
+        .mail_text_div > h3, .number_text_div > h3 {
+            font-size: 1em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .mail_text_div > h4, .number_text_div > h4 {
+            font-size: 0.9em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .taj_logo{
+            width: 40%;
+        }
+        .yono_logo{
+            width: 30%;
+        }
+        .lokmat_logo{
+            width: 60%;
+        }
+        .logo_title_div > h3{
+            font-size: 1.75em;
+            padding: 0;
+            margin: 10px 0 0;
+        }        
+        
+    }
+    
+    @media screen and (max-width: 600px){
+        .partner_main{
+            width: 90%;
+        }
+        .heading_class{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .heading_class > h1, .sponsor_heading_class > h1 {              
+            font-size: 2.25em;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .para_class1 > p, .para_class2 > p {
+            font-size: 1em;
+            padding: 0;
+            margin: 10px 0;
+        }  
+        
+        .mail_text_div > h3, .number_text_div > h3 {
+            font-size: 1em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .mail_text_div > h4, .number_text_div > h4 {
+            font-size: 0.9em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .contacts_partner{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }  
+        .taj_logo{
+            width: 45%;
+        }
+        .yono_logo{
+            width: 25%;
+        }
+        .lokmat_logo{
+            width: 40%;
+        }
+        .logo_title_div > h3{
+            font-size: 1.75em;
+            padding: 0;
+            margin: 15px 0 0
+        } 
+        .level_2_logos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    
+    @media screen and (max-width: 450px){
+        .partner_main{
+            width: 95%;
+        }
+        .heading_class{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .heading_class > h1, .sponsor_heading_class > h1 {                 
+            font-size: 1.8em;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .para_class1 > p, .para_class2 > p {
+            font-size: 0.9em;
+            padding: 0;
+            margin: 10px 0;
+        }  
+        
+        .mail_text_div > h3, .number_text_div > h3 {
+            font-size: 0.9em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .mail_text_div > h4, .number_text_div > h4 {
+            font-size: 0.8em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .contacts_partner{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }   
+        .logos{
+            width: 20vw;
+        }
+        .taj_logo{
+            width: 45%;
+        }
+        .yono_logo{
+            width: 25%;
+        }
+        .lokmat_logo{
+            width: 45%;
+        }
+        .logo_title_div > h3{
+            font-size: 1.75em;
+            padding: 0;
+            margin: 15px 0 0
+        } 
+        .level_2_logos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    
+    @media screen and (max-width: 300px){
+        .partner_main{
+            width: 95%;
+        }
+        .heading_class{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .heading_class > h1, .sponsor_heading_class > h1 {            
+            font-size: 1.75em;
+            padding: 0;
+            margin: 10px 0;
+        }
+        .para_class1 > p, .para_class2 > p {
+            font-size: 0.9em;
+            padding: 0;
+            margin: 10px 0;
+        }  
+        
+        .mail_text_div > h3, .number_text_div > h3 {
+            font-size: 0.9em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .mail_text_div > h4, .number_text_div > h4 {
+            font-size: 0.8em;
+            padding: 0;
+            margin: 3px 0;
+        }
+        .contacts_partner{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .logos{
+            width: 20vw;
+        }
+        .taj_logo{
+            width: 45%;
+        }
+        .yono_logo{
+            width: 25%;
+        }
+        .lokmat_logo{
+            width: 40%;
+        }
+        .logo_title_div > h3{
+            font-size: 1.75em;
+            padding: 0;
+            margin: 25px 0 0
+        } 
+        .level_2_logos{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    }

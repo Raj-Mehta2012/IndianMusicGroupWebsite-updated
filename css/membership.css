@@ -1,0 +1,542 @@
+body{
+    padding: 0;
+  }
+  /***/
+  body{
+    background-color: #FBF4E1;
+  }
+  
+  @font-face {
+      font-family: 'Gilroy';
+      /*src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+      /*src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         /*url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+         src : url('../fonts/Gilroy/Gilroy_ExtraBold.otf')  format('truetype'); /* Safari, Android, iOS */
+         /*url('fonts/Gotham-Bold.svg#svgFontName') format('svg');  Legacy iOS */
+       font-weight: 700;
+       font-style: normal;
+  }
+  @font-face{
+    font-family: 'Raleway';
+    src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face{
+    font-family: 'Raleway_Bold';
+    src:url('../fonts/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+    font-weight: 700;
+       font-style: normal;
+  
+  }
+  @font-face{
+    font-family: 'Raleway_Regular';
+    src:url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+  @font-face{
+    font-family: 'Raleway_Medium';
+    src:url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+  
+          /*.header-container {
+    display: flex;
+    flex-direction: row;
+    
+  }*/
+  
+  /*Css for 1 row of elements*/
+  .main_heading {
+  
+    font-family: 'Gilroy',sans-serif;
+    color: #091d5a;
+    display: flex;
+    justify-content: center;
+  
+    /*display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+     margin-top: 20px;*/
+  
+  }
+  span{
+    font-size: 0.5em;
+  }
+  /***************************************/
+  
+  
+  
+  .membership_advert{
+      width: 75%;
+      margin: 7.5vh auto 5%;
+      display: flex;
+      flex-direction: column;
+  }
+  .quote_class{
+      color: #091d5a;
+  }
+  .quote_class > h2{
+      font-size: 2.5em;
+      margin: 0;
+      padding: 0;
+      font-family: 'Gilroy',sans-serif;
+  }
+  .vic_hugo{
+      display: flex;
+      justify-content: flex-end;
+      font-family: 'Gilroy',sans-serif;
+      color: #091d5a;
+  }
+  .vic_hugo > h4{
+      font-size: 1.1em;
+      margin: 0;
+      padding: 0;
+  }
+  .img_membership_card{
+      margin: 0.5em 1.4em;
+  }
+  .memebrship_pitch{
+     font-family: 'Raleway',sans-serifs;
+      color: #091d5a;
+  }
+  .memebrship_pitch > p{
+      margin: 10px auto 20px;
+      padding: 0;
+      font-family: 'Raleway',sans-serif;
+      text-align:justify;
+      hyphens: auto;
+      
+  }
+  .perks_of_member_title > h1{
+      font-size: 2em;
+      font-weight: 700;
+      font-family: 'Gilroy',sans-serif;
+      color: #091d5a;
+      margin-top: 0;
+  }
+  
+  .perks_list{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+  
+  }
+  
+  .sub_header_1{
+    margin-left: 12px;
+  }
+  .sub_header_1 > h3{
+   
+    font-family: 'Gilroy',sans-serif;
+    color: #091d5a;
+    margin: 0;
+  }
+  
+  .sub_header_1_text > p{
+    
+    font-size: 1em;
+     margin: 0;
+     width: 90%;
+     font-family: 'Raleway',sans-serif;
+     color: #091d5a;
+     text-align:justify;
+     hyphens: auto;
+      
+  }
+  .perks_list_1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-top: 20px;
+       
+  }
+  
+  .How_to_become_member_title > h1{
+     font-size: 2em;
+      font-weight: 700;
+      font-family: 'Gilroy',sans-serif;
+      color: #091d5a;
+      margin-bottom: 0;
+  }
+  .content_nothing_good > li{
+    list-style-type: none;
+    margin: 1px;
+    font-family: 'Raleway',sans-serif;
+     color: #091d5a;
+     font-size: 1em;
+     width: 90%;
+  }
+  .content_nothing_good > p{
+    font-family: 'Raleway',sans-serif;
+     color: #091d5a;
+     font-size: 0.9em;
+  }
+  .content_nothing_good > p > b {
+    font-family: 'Raleway_Bold',sans-serif;
+  }
+  
+  .three_sub_icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+  }
+  .color-box{
+    border-radius: 25px;
+    background-color: #091d5a;
+    padding: 20px; 
+    width: 180px;
+    height: 180px;
+  }
+  .color-box > .ANNUAL{
+    margin: 0;
+    color: #FBF4E1;
+    width: 50%;
+    text-align: center;
+    font-size: 2.7em;
+    font-family: 'Gilroy',sans-serif;
+  
+  }
+  
+  .color-box > .memmmber{
+     margin: 0;
+    color: #FBF4E1;
+    width: 50%;
+    text-align: center;
+    font-size: 1.8em;
+    font-family: 'Gilroy',sans-serif;
+    
+  }
+  .color-box > .students{
+     margin: 0;
+    color: #FBF4E1;
+    text-align: center;
+    font-size: 1.3em;
+    font-family: 'Gilroy',sans-serif;
+  
+  }
+  .three_sub_icons_mobile{
+    display: none;
+  }
+  sup{
+    color: #FBF4E1;
+    width: 100%;
+    font-size: 0.55em;
+  }
+  
+  .mobileViewIcons{
+    display: none;
+  }
+  
+  
+  /*********************************/
+  
+  /*********************************/
+  /**Media queries lie here*/
+  
+    @media screen and (min-width: 901px) and (max-width: 1100px){
+        
+      .color-box{
+        border-radius: 25px;
+        background-color: #091d5a;
+        padding: 20px; 
+        width: 18vw;
+        height: 18vw;
+      }
+      .color-box > .ANNUAL{
+        margin: 0;
+        color: #FBF4E1;
+        width: 50%;
+        text-align: center;
+        font-size: 2.25em;
+        font-family: 'Gilroy',sans-serif
+      
+      }
+      
+      .color-box > .memmmber{
+         margin: 0;
+        color: #FBF4E1;
+        width: 50%;
+        text-align: center;
+        font-size: 1.75em;
+        font-family: 'Gilroy',sans-serif
+        
+      }
+      .color-box > .students{
+         margin: 0;
+        color: #FBF4E1;
+        text-align: center;
+        font-size: 1.5em;
+      
+      }
+      sup{
+        color: #FBF4E1;
+        width: 100%;
+        font-size: 0.65em;
+      }
+  
+    }  
+    @media screen and (min-width: 701px) and (max-width: 900px){
+        
+      .color-box{
+        border-radius: 25px;
+        background-color: #091d5a;
+        padding: 20px; 
+        width: 18vw;
+        height: 18.5vw;
+      }
+      .color-box > .ANNUAL{
+        margin: 0;
+        color: #FBF4E1;
+        width: 50%;
+        text-align: center;
+        font-size: 1.65em;
+        font-family: 'Gilroy',sans-serif
+      
+      }
+      
+      .color-box > .memmmber{
+        margin: 0;
+        color: #FBF4E1;
+        width: 50%;
+        text-align: center;
+        font-size: 1.45em;
+        font-family: 'Gilroy',sans-serif
+        
+      }
+      .color-box > .students{
+        margin: 0;
+        color: #FBF4E1;
+        text-align: center;
+        font-size: 1.45em;
+      
+      }
+      sup{
+        color: #FBF4E1;
+        width: 100%;
+        font-size: 0.55em;
+      }
+  
+    }
+    
+    
+    
+    
+    @media screen and (max-width: 700px){
+  
+      .membership_advert{
+        width: 90%;
+        margin: 7.5vh auto 5%;
+        display: flex;
+        flex-direction: column;
+      }
+  
+      .quote_class > h2{
+        font-size: 1.75em;
+      }
+        .three_sub_icons{
+          display: none;
+        }
+  
+        .memebrship_pitch > p{
+            font-size: 0.8em;
+        }
+        .perks_of_member_title > h1{
+          font-size: 1.5em;
+  
+        }
+  
+        .perks_list{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: flex-start;
+        }
+        .images_all{
+         height: 130%;/*130*/
+         width: 130%;/*130*/
+        }
+        .sub_header_1 > h3{
+          font-size: 1.35em;
+          
+        }
+        .sub_header_1_text > p{
+          margin: 0;
+          width: 100%;
+        }
+        .How_to_become_member_title > h1{
+          font-size: 1.40em;
+          text-align: center;
+      
+        }
+        .content_nothing_good > li{
+             font-size: 80%;/*0.75em*/
+            
+        }
+        .three_sub_icons_mobile{
+          display: block;
+        }
+        .mobileView{
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          align-items: center;
+        }
+       
+        .mobile-box{
+            border-radius: 12px;
+            background-color: #091d5a;
+            padding: 10px;
+            width: 90%;
+            height: 15vh; 
+            margin-top: 10px;
+  
+        }
+        .partition_1{
+          display: flex;
+          flex-direction: row; 
+          justify-content: space-around;
+        }
+        .sub_part_1{
+          display: flex;
+          flex-direction: column; 
+          justify-content: space-around;
+          align-items: center;
+        }
+  
+        .price > .flex-orient >.ANNUAL_mob{
+          margin: 0;
+          color: #FBF4E1;
+          font-size: 150%;/*1.75em*/
+          font-family: 'Gilroy',sans-serif;
+  
+        }
+        
+         .sub_part_1 > .ANNUAL_mob > p{
+          margin: 0;
+          color: #FBF4E1;
+          font-size: 2em;/*2em*/
+          font-family: 'Gilroy',sans-serif;
+        }
+        .sub_part_1 > .memmmber_mob > p{
+          margin: 0;
+          color: #FBF4E1;
+          font-size: 1.25em;
+          font-family: 'Gilroy',sans-serif;
+          
+        }
+        .sub_part_1 > .students_mob > p{
+          margin: 0;
+          color: #FBF4E1;
+          font-size: 0.9em;
+          font-family: 'Raleway',sans-serif;
+          
+        }
+        .flex-orient{
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+  
+        }
+        .first-part{
+          display: none;
+        }
+        .mobileViewIcons{
+          display: block;
+        }
+  
+        .mobileContent{
+          display: flex;
+          flex-direction: column;
+  
+        }
+  
+        #mobCassette{
+          height: 85%;
+          width: 85%;
+          margin: 0;
+        }
+  
+        #mobMusic{
+          height: 90%;
+          width: 90%;
+        }
+  
+        #mobMail{
+          height: 80%;
+          width: 90%;
+          margin: 0;
+        }
+        .mobTicket{
+          height: 70%;
+          width: 90%;
+        }
+  
+        .type_3{
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+        }
+        .type_4 > h3{
+          font-family: 'Gilroy',sans-serif;
+          color: #091d5a;
+         margin: 0;
+          font-size: 140%;/*1.4em*/
+          width: 105%;
+  
+           
+        }
+        .type_2 > p{
+          font-family: 'Raleway',sans-serif;
+          color: #091d5a;
+          font-size: 80%;/*0.8em*/
+          margin-top: 0;
+        }
+  /*
+        .type_12{
+          display: flex;
+          flex-direction: row;
+        }*/
+    
+  
+    }
+    
+    @media screen and (max-width: 300px){
+    
+    
+  }
+  
+  
+  /**Media queries end here*/
+  /*********************************/
+  /*Css for all the headers font */
+  /*.headers_content
+  {
+    font-family: Gilroy;
+    color: #091d5a; 
+  }*/
+  /*Css for all the rest of text font */
+  /*.normal_text
+  {
+    margin-top: 0;
+   font-family: Raleway;
+   color: #091d5a;
+  }*/
+  
+  /*.content
+  {
+      display: flex;
+    justify-content: flex-start;
+    font-family: 'Gotham-Bold';
+    font-size: 50px;
+    margin: 0px 20px;
+    font-weight: 700;
+  }*/
+  

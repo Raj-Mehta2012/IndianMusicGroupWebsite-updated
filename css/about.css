@@ -1,0 +1,191 @@
+/* TEMPLATE CSS WITH BREAKPOINTS. DO NOT MAKE CHANGES */
+@font-face {
+    font-family: 'Gilroy';
+    /*src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+    /*src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       /*url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       src : url('../fonts/Gilroy/Gilroy_ExtraBold.otf')  format('truetype'); /* Safari, Android, iOS */
+       /*url('fonts/Gotham-Bold.svg#svgFontName') format('svg');  Legacy iOS */
+     font-weight: 700;
+     font-style: normal;
+}
+@font-face{
+  font-family: 'Raleway';
+  src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+     font-style: normal;
+
+}
+@font-face{
+  font-family: 'Raleway_Bold';
+  src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+     font-style: normal;
+
+}
+@font-face{
+  font-family: 'Raleway_Regular';
+  src:url('../fonts/Raleway/Raleway-Medium.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+  
+  .container{
+    padding-left: 5%;
+    padding-right: 5%;
+    width: 80vw;
+  }
+  
+  [class*="col-"] {
+    float: left;
+    padding: 5px;
+  }
+  
+  p{
+    color: #091d5a;
+    text-align-last: left;
+    text-align: justify;
+    margin:5px;
+    padding:5px;
+    font-family: 'Raleway_Bold','sans-serif';
+    font-size: 1.1em;
+    text-align:justify;
+    hyphens: auto;
+  }
+  .header_container{
+    width: 100%;    
+    margin:10px auto 0px;
+    display: flex;
+    justify-content: center;
+
+  }
+  .header_container > h1{
+    color: #091d5a;
+    text-align-last: left;
+    text-align: justify;
+    margin: 0;
+    padding:0px;
+    font-family: 'Gilroy';
+    font-size: 45px;
+  }
+  html {
+    background-color: #fbf4e1;
+    font-family: "Myriad Pro", sans-serif;
+  }
+  
+  .abc{
+    display: flex;
+    flex-wrap: center;
+    align-items: center;
+  }
+
+  .image_class{
+    width: 75%;
+    height: 60%;
+    margin: 10px auto;
+    align-content: center;
+  }
+  
+  
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .header_container{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
+  @media screen and (min-width: 801px) and (max-width: 1100px){
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 90vw;
+    }
+  
+  }  
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 800px) {
+    .container{
+      padding-left: 5%;
+      padding-right: 5%;
+      width: 95vw;
+    }
+  }
+  
+  @media screen and (max-width: 600px){
+    .container{
+      padding: 0;
+      margin: 0;
+      width: 100vw;
+    }
+    .image_class{
+      width: 95%;
+      margin: 10px auto;
+      align-content: center;
+    }
+  }
+  
+  
+  @media screen and (max-width: 450px){
+    .container{
+      padding: 0;
+      margin: 0;
+      width: 95vw;
+    }
+    .image_class{
+      width: 90%;
+      margin: 10px auto;
+      align-content: center;
+    }
+  }
+  
+  @media screen and (max-width: 300px){
+    .container{
+      padding: 0;
+      margin: 0;
+      width: 100vw;
+    }
+    .image_class{
+      width: 85%;
+      margin: 10px auto;
+      align-content: center;
+    }
+  }

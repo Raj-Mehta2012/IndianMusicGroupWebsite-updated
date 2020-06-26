@@ -1,0 +1,243 @@
+@font-face {
+    font-family: 'Gilroy';
+    /*src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+    /*src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       /*url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       src : url('../fonts/Gilroy/Gilroy_ExtraBold.otf')  format('truetype'); /* Safari, Android, iOS */
+       /*url('fonts/Gotham-Bold.svg#svgFontName') format('svg');  Legacy iOS */
+     font-weight: 700;
+     font-style: normal;
+  }
+  @font-face{
+  font-family: 'Raleway';
+  src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+     font-style: normal;
+  
+  }
+  @font-face{
+  font-family: 'Raleway_Bold';
+  src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+     font-style: normal;
+  
+  }
+  @font-face{
+    font-family: 'Raleway_BoldItalic';
+    src:url('../fonts/Raleway/Raleway-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+       font-style: normal;
+    
+    }
+  @font-face{
+      font-family: 'Gotham';
+      src:url('../fonts/Gotham/GothamBold.ttf')  format('truetype');
+      font-weight: 700;
+      font-style: normal;
+  
+  }
+  @font-face{
+    font-family: 'Bunch_Blossoms';
+    src:url('../fonts/BunchBlossoms/Bunch-Blossoms.ttf')  format('opentype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face{
+    font-family: 'Raleway_Regular';
+    src:url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+.patterns{
+    width: 100%;
+}
+.left_image{
+    position: absolute;
+    left: 0;
+    width: 25%;
+}
+.right_image{
+    position: absolute;  
+    right: 0;  
+    width: 25%;
+}
+.janfest_main_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    background-image: url("../images/JanFest/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 95%;
+}
+.janfest_lineup_link_video{
+    width: 420px;
+    height: 345px;
+}
+.heading_class > h1{
+    font-size: 4em;
+    font-family: 'Bunch_Blossoms',sans-serif;
+    color: #091d5a;
+    margin: 10px;
+}
+.poem_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.poem_class > h3{
+    margin: 3px;
+    padding: 0;
+    font-size: 1.15em;
+    color: #091d5a;
+    font-family: 'Raleway_BoldItalic',sans-serif;
+}
+.janfest_para1{
+    color: #091d5a;
+    font-size: 1em;
+    font-family: 'Raleway_Bold',sans-serif;
+    text-align:justify;
+    hyphens: auto;
+}
+.janfest_text{
+    font-family: 'Bunch_Blossoms',sans-serif;
+    color: #091d5a;
+}
+.janfest_para2{
+    color: #091d5a;
+    font-size: 1em;
+    font-family: 'Raleway_Bold',sans-serif;
+    text-align:justify;
+    hyphens: auto;
+}
+.janfest_image{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.janfest_image > img{
+    width: auto;
+}
+.janfest_quote{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.janfest_quote > h2 {
+    color: #091d5a;
+    font-size: 1.5em;
+    font-family: 'Gilroy',sans-serif;
+    margin: 5px;
+    padding: 0;
+}
+
+
+    @media screen and (min-width: 801px) and (max-width: 1100px){
+        .left_image, .right_image{width: 22%;}
+        .janfest_main_class{
+            width: 85%;
+            background-image: url("../images/JanFest/bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 95%;
+        }
+        .poem_class > h3{font-size: 1.1em;}
+        .heading_class > h1{font-size: 3.5em;}
+        .janfest_para2, .janfest_para1{font-size: 1em;}
+        .janfest_quote > h2 {font-size: 1.5em}
+        .janfest_image > img{width: 90%;}
+        .janfest_lineup_link_video{
+            width: 380px;
+            height: 300px;
+        }
+    
+    }  
+    
+    @media screen and (max-width: 800px) {
+        .left_image, .right_image{width: 22%;}
+        .janfest_main_class{
+            width: 85%;
+            background-image: url("../images/JanFest/bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 95%;
+        }
+        .poem_class > h3{font-size: 1.1em;}
+        .heading_class > h1{font-size: 3.5em;}
+        .janfest_para2, .janfest_para1{font-size: 1em;}
+        .janfest_quote > h2 {font-size: 1.4em}
+        .janfest_image > img{width: 90%;}
+    }
+    
+    @media screen and (max-width: 600px){
+        .left_image, .right_image{width: 22%;}
+        .janfest_main_class{
+            width: 95%;
+            background-image: url("../images/JanFest/bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 95%;
+        }
+        .poem_class > h3{font-size: 1.1em;}
+        .heading_class > h1{font-size: 3.2em;}
+        .janfest_para2, .janfest_para1{font-size: 1em;}
+        .janfest_quote > h2 {font-size: 1.1em}
+        .janfest_image > img{width: 90%;}
+        .janfest_lineup_link_video{
+            width: 300px;
+            height: 240px;
+        }
+    }
+    
+    
+    @media screen and (max-width: 450px){
+        .left_image, .right_image{width: 22%;}
+        .janfest_main_class{
+            width: 97%;
+            background-image: url("../images/JanFest/bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 95%;
+        }
+        .poem_class > h3{font-size: 1.1em;}
+        .heading_class > h1{font-size: 3em;}
+        .janfest_para2, .janfest_para1{font-size: 1em;}
+        .janfest_quote > h2 {font-size: 0.9em}
+        .janfest_image > img{width: 90%;}
+        .janfest_lineup_link_video{
+            width: 240px;
+            height: 180px;
+        }
+    }
+    
+    @media screen and (max-width: 350px){
+        .left_image, .right_image{width: 22%;}
+        .janfest_main_class{
+            width: 97%;
+            background-image: url("../images/JanFest/bg.png");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: 95%;
+        }
+        .poem_class > h3{font-size: 0.9em;}
+        .heading_class > h1{font-size: 3em;}
+        .janfest_para2, .janfest_para1{font-size: 1em;}
+        .janfest_quote > h2 {
+            font-size: 0.8em;
+        }
+        .janfest_image > img{width: 90%;}
+        .janfest_lineup_link_video{
+            width: 200px;
+            height: 150px;
+        }
+    }

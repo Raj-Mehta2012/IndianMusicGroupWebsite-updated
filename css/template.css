@@ -1,0 +1,54 @@
+/* TEMPLATE CSS WITH BREAKPOINTS. DO NOT MAKE CHANGES */
+@font-face {
+  font-family: 'Gilroy';
+  /*src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+  /*src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+     /*url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+     src : url('../fonts/Gilroy/Gilroy_ExtraBold.otf')  format('truetype'); /* Safari, Android, iOS */
+     /*url('fonts/Gotham-Bold.svg#svgFontName') format('svg');  Legacy iOS */
+   font-weight: 700;
+   font-style: normal;
+}
+@font-face{
+font-family: 'Raleway';
+src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+font-weight: 700;
+   font-style: normal;
+
+}
+@font-face{
+font-family: 'Raleway_Bold';
+src:url('../fonts/Raleway/Raleway-ExtraBold.ttf') format('truetype');
+font-weight: 700;
+   font-style: normal;
+
+}
+font-face{
+    font-family: 'Gotham';
+    src:url('../fonts/Gotham/GothamBold.ttf')  format('truetype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+  @media screen and (min-width: 801px) and (max-width: 1100px){
+      
+  
+  }  
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 800px) {
+      
+  }
+  
+  @media screen and (max-width: 600px){
+      
+  }
+  
+  
+  @media screen and (max-width: 450px){
+      
+  }
+  
+  @media screen and (max-width: 300px){
+  
+  }

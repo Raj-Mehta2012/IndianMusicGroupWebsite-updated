@@ -1,0 +1,546 @@
+@font-face {
+    font-family: 'Gilroy';
+    /*src: url('fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+    /*src: url('fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       /*url('fonts/Gotham-Bold.woff') format('woff'), /* Modern Browsers */
+       src : url('../fonts/Gilroy/Gilroy_ExtraBold.otf')  format('truetype'); /* Safari, Android, iOS */
+       /*url('fonts/Gotham-Bold.svg#svgFontName') format('svg');  Legacy iOS */
+     font-weight: 700;
+     font-style: normal;
+  }
+  @font-face{
+  font-family: 'Raleway';
+  src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  }
+  @font-face{
+  font-family: 'Raleway_Bold';
+  src:url('../fonts/Raleway/Raleway-Bold.ttf') format('truetype');
+  font-weight: 1100;
+  font-style: normal;
+  
+  }
+  @font-face{
+    font-family: 'Raleway_BoldItalic';
+    src:url('../fonts/Raleway/Raleway-BoldItalic.ttf') format('truetype');
+    font-weight: 700;
+       font-style: normal;
+    
+    }
+  @font-face{
+    font-family: 'Bunch_Blossoms';
+    src:url('../fonts/BunchBlossoms/Bunch-Blossoms.ttf')  format('opentype');
+    font-weight: 700;
+    font-style: normal;
+
+}
+@font-face{
+    font-family: 'Raleway_Regular';
+    src:url('../fonts/Raleway/Raleway-Regular.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+  }
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.janfest_main_content{
+    background-image: url("../images/JanFest/repetitive_patterna.png");
+    background-repeat: repeat;
+    background-size: 40% auto;
+}
+.janfest_outer_class_div{
+    background-image: url("../images/JanFest/Cream_jharoka.png");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 20px;
+    
+}
+.janfest_inner_class_div{
+    width: 70%;
+}
+.janfest_logo_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.janfest_logo_img{
+    width: 20%;
+}
+.poem_outer_class{
+    background-image: url("../images/JanFest/Pattern.png");
+    background-size: 25em;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 25px;
+}
+.poem_class{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.poem_class > h3{
+    margin: 3px;
+    padding: 0;
+    font-size: 1.15em;
+    color: #091d5a;
+    font-family: 'Raleway_BoldItalic',sans-serif;
+}
+.janfest_lineup_link_video{
+    width: 100%;
+    height: 60vh;
+    
+}
+.janfest_para1{
+    color: #091d5a;
+    font-size: 1.1em;
+    font-family: 'Raleway_Bold',sans-serif;
+    text-align:justify;
+    hyphens: auto;
+}
+.lineup_outer_class{
+    border: 5px solid #091d5a;
+    padding: 0 10px;
+    margin: 0;
+}
+.lineup_for_pc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lineup_for_mobile{
+    display: none;
+}
+.lineup_title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lineup_title > h2{
+    margin: 10px;
+    padding: 0;
+    font-family: 'Raleway';
+    color: #091d5a;
+}
+.desktop_line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.lineup_class_small{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    color: #091d5a;
+}
+.lineup_class_session{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    color: #091d5a;
+}
+.lineup_class_category{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway_Bold';
+    color: #091d5a;
+    text-decoration: underline;
+}
+.ticket_price_discount_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ticket_price{
+    background-color: #091d5a;
+    border-radius: 20px;
+    padding: 15px;
+}
+.price_range_text > h4 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway_Regular';
+    color: #FBF4E1;
+}
+.price_range_amount > h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway_Regular';
+    color: #FBF4E1;
+}
+.members_discount_text > h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    color: #091d5a;
+    font-size: 0.9em;
+}
+.discount_percentage > h1{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway_Bold';
+    color: #091d5a;
+    font-size: 1.5em;
+}
+.upto_two_season_passes > h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    color: #091d5a;
+    font-size: 0.9em;
+}
+.janfest_quad_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.janfest_quad_plan{
+    width: 70%;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.details_contact_text > h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway';
+    color: #091d5a;
+}
+.contact_numbers > h2{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    color: #091d5a;
+}
+.ticket_discount_mobile{
+    display: none;
+}
+
+    @media screen and (min-width: 801px) and (max-width: 1100px){
+        .poem_class > h3{font-size: 1.1em;}
+        .janfest_inner_class_div{ width: 85%; }
+        .janfest_lineup_link_video{width: 100%; height: 60vh; }
+        .janfest_outer_class_div{ margin: 0 10px; }
+        .janfest_logo_img{ width: 20%; }
+        
+        .ticket_price_discount_div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ticket_price{
+            border-radius: 20px;
+            padding: 10px;
+        }
+        .price_range_text > h4 { font-size: 0.8em; }
+        .price_range_amount > h2 { font-size: 1.25em; }
+        .members_discount_text > h3{ font-size: 0.85em; }
+        .discount_percentage > h1{ font-size: 1.4em; }
+        .upto_two_season_passes > h3{ font-size: 0.85em; }
+        .contacts{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .details_contact_text > h3{ font-size: 0.9em; }
+        .contact_numbers > h2{ font-size: 1.4em; }
+    }  
+    
+    @media screen and (max-width: 800px) {
+        .poem_class > h3{font-size: 1.1em;}
+        .janfest_inner_class_div{ width: 90%; }
+        .janfest_lineup_link_video{width: 100%; height: 45vh; }
+        .janfest_outer_class_div{ margin: 0 10px; }
+        .janfest_logo_img{ width: 22.5%; }
+
+        .lineup_class_small{font-size: 0.9em;}/*p 1em default*/
+        .lineup_class_session{font-size: 1.3em;}/*h2 1.5em default*/
+        .lineup_class_category{font-size: 1.05em;}/*h3 1.17em default*/
+
+        .ticket_price_discount_div{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+        .ticket_price{
+            background-color: #091d5a;
+            border-radius: 20px;
+            padding: 15px;
+        }
+
+        .price_range_text > h4 { font-size: 0.7em; }
+        .price_range_amount > h2 { font-size: 1em; }
+        .members_discount_text > h3{ font-size: 0.8em; }
+        .discount_percentage > h1{ font-size: 1.35em; }
+        .upto_two_season_passes > h3{ font-size: 0.8em; }
+
+        .details_contact_text > h3{ font-size: 0.8em; }
+        .contact_numbers > h2{ font-size: 1.25em; }
+    
+    }
+    
+    @media screen and (max-width: 600px){
+        .poem_class > h3{font-size: 1em;}
+        .janfest_inner_class_div{ width: 95%; }
+        .janfest_lineup_link_video{width: 100%; height: 45vh; }
+        .janfest_outer_class_div{ margin: 20px; }
+        .janfest_logo_img{ width: 27.5%; }
+
+        .lineup_for_mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+        }
+        .lineup_for_pc{
+            display: none;
+        }
+
+        .lineup_class_small {font-size: 1em;}/*p 1em default*/
+        .lineup_class_session {font-size: 1.4em;}/*h2 1.5em default*/
+        .lineup_class_category{font-size: 1em;}/*h3 1.17em default*/
+
+        .lineup_title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .lineup_title > h1{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gilroy';
+            color: #091d5a;
+            font-size: 1.5em;
+        }
+
+        .poem_outer_class{
+            padding: 35px;
+        }
+
+        .ticket_price_discount_div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ticket_price{
+            background-color: #091d5a;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        .ticket_discount{
+            display: none;
+            
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .ticket_discount_mobile{
+            display: flex;
+            font-family: 'Raleway_Bold';
+            color: #091d5a;
+        }
+        .mobile_discount_div > h3{
+            margin: 0;
+            padding: 0;
+            font-size: 0.75em;
+        }
+
+        .price_range_text > h4 { font-size: 0.9em; }
+        .price_range_amount > h2 { font-size: 1.1em; }
+        .members_discount_text > h3{ font-size: 0.8em; }
+        .discount_percentage > h1{ font-size: 1.35em; }
+        .upto_two_season_passes > h3{ font-size: 0.8em; }
+
+        .details_contact_text > h3{ font-size: 0.8em; }
+        .contact_numbers > h2{ font-size: 1.25em; }
+    }
+    
+    
+    @media screen and (max-width: 450px){
+        .poem_class > h3{font-size: 1em;}
+        .janfest_inner_class_div{ width: 95%; }
+        .janfest_lineup_link_video{width: 100%; height: 45vh; }
+        .janfest_outer_class_div{ margin: 20px; }
+        .janfest_logo_img{ width: 30%; }
+
+        .lineup_for_mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+        }
+        .lineup_for_pc{
+            display: none;
+        }
+
+        .lineup_class_small {font-size: 0.9em;}/*p 1em default*/
+        .lineup_class_session {font-size: 1.3em;}/*h2 1.5em default*/
+        .lineup_class_category{font-size: 0.9em;}/*h3 1.17em default*/
+
+        .lineup_title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .lineup_title > h1{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gilroy';
+            color: #091d5a;
+            font-size: 1.5em;
+        }
+
+        .poem_outer_class{
+            padding: 35px;
+        }
+
+        .ticket_price_discount_div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ticket_price{
+            background-color: #091d5a;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        .ticket_discount{
+            display: none;
+            
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .ticket_discount_mobile{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Raleway_Bold';
+            color: #091d5a;
+        }
+        .mobile_discount_div > h3{
+            margin: 0;
+            padding: 0;
+            font-size: 0.7em;
+        }
+
+        .price_range_text > h4 { font-size: 0.8em; }
+        .price_range_amount > h2 { font-size: 1em; }
+        .members_discount_text > h3{ font-size: 0.8em; }
+        .discount_percentage > h1{ font-size: 1.35em; }
+        .upto_two_season_passes > h3{ font-size: 0.8em; }
+
+        .details_contact_text > h3{ font-size: 0.8em; }
+        .contact_numbers > h2{ font-size: 1em; }
+    }
+    
+    @media screen and (max-width: 350px){
+        .poem_class > h3{font-size: 1em;}
+        .janfest_inner_class_div{ width: 95%; }
+        .janfest_lineup_link_video{width: 100%; height: 45vh; }
+        .janfest_outer_class_div{ margin: 20px; }
+        .janfest_logo_img{ width: 35%; }
+
+        .lineup_for_mobile{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+
+        }
+        .lineup_for_pc{
+            display: none;
+        }
+
+        .lineup_class_small {font-size: 0.9em;}/*p 1em default*/
+        .lineup_class_session {font-size: 1.3em;}/*h2 1.5em default*/
+        .lineup_class_category{font-size: 0.9em;}/*h3 1.17em default*/
+
+        .lineup_title{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+        .lineup_title > h1{
+            margin: 0;
+            padding: 0;
+            font-family: 'Gilroy';
+            color: #091d5a;
+            font-size: 1.5em;
+        }
+
+        .poem_outer_class{
+            padding: 35px;
+        }
+
+        .ticket_price_discount_div{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .ticket_price{
+            background-color: #091d5a;
+            border-radius: 20px;
+            padding: 15px;
+        }
+        .ticket_discount{
+            display: none;
+            
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .ticket_discount_mobile{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Raleway_Bold';
+            color: #091d5a;
+        }
+        .mobile_discount_div > h3{
+            margin: 0;
+            padding: 0;
+            font-size: 0.7em;
+        }
+
+        .price_range_text > h4 { font-size: 0.7em; }
+        .price_range_amount > h2 { font-size: 0.9em; }
+        .members_discount_text > h3{ font-size: 0.7em; }
+        .discount_percentage > h1{ font-size: 1.35em; }
+        .upto_two_season_passes > h3{ font-size: 0.8em; }
+
+        .details_contact_text > h3{ font-size: 0.8em; }
+        .contact_numbers > h2{ font-size: 1em; }
+    }
